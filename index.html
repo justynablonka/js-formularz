@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS, formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <label for="nameForm">Imię:</label><br>
+        <input type="text" id="nameForm" name="nameForm"><br>
+        <label for="surnameForm">Nazwisko:</label><br>
+        <input type="text" id="surnameForm" name="surnameForm"><br>
+        <label for="phoneForm">Numer telefonu:</label><br>
+        <input type="tel" id="phoneForm" name="phoneForm"><br><br>
+    </form>
+    <button>Wyświetl dane</button>
+    <div id="container">
+        <p>Dane:</p>
+        <p id="name" class="output"></p>
+        <p id="surname" class="output"></p>
+        <p id="phone" class="output"></p>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>

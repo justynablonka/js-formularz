@@ -1,0 +1,17 @@
+label {
+    color: rgb(99, 17, 158);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button {
+    background-color: rgb(150, 208, 228);
+    border-style: double;
+}
+
+.output {
+    font-style: italic;
+}
+
+ div > p + p {
+    background-color: rgb(250, 248, 248);
+}
